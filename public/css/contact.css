@@ -1,0 +1,41 @@
+/* Hero Section */
+
+.hero-sec {
+  padding: 20vh 0;
+}
+
+.hero-sec h1 {
+    font-family: var(--heading-font);
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+.hero-sec h2 {
+    font-family: var(--text-font);
+    font-size: 3rem;
+    font-weight:lighter;
+    letter-spacing: 1;
+}
+
+.hero-sec p {
+    font-family: var(--text-font);
+    font-size: 1.25rem;
+}
+
+.hero-sec .right {
+  text-align: center;
+}
+
+form input,
+form textarea {
+  font-family: var(--text-font);
+  font-size: 1rem;
+  padding: 5px 15px;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 60%;
+}
+
+form input:focus {
+  outline: inherit;
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Himanshu Masant",
+  "css": "/css/home.css",
+  "projects": [
+    {
+      "id": 1,
+      "heading": "Aptitude Test App",
+      "image": "/images/AptitudeTest.png",
+      "website": "/",
+      "github": "/",
+      "items": [
+        "Frontend built using HTML and CSS.",
+        "JavaScript along with JQuery is used to perform certain tasks.",
+        "Deployed using GitHub Pages."
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "NFT Generator App",
+      "image": "/images/NFTGenerator.png",
+      "website": "/",
+      "github": "/",
+      "items": [
+        "Frontend built using HTML and CSS.",
+        "Backend built using Node.js and Express.",
+        "Image processing performed using JIMP npm package.",
+        "Deployed using Heroku."
+      ]
+    }
+  ]
+}

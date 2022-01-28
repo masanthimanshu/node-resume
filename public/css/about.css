@@ -1,0 +1,29 @@
+/* Hero Section */
+
+.hero-sec {
+  padding: 20vh 0;
+}
+
+.hero-sec img {
+  transition: 1s;
+}
+
+.hero-sec img:hover {
+  transform: rotate(10deg);
+}
+
+.hero-sec h2 {
+  font-family: var(--heading-font);
+  font-size: 5rem;
+  font-weight: normal;
+}
+
+.hero-sec .p-tag {
+  width: 90%;
+}
+
+.hero-sec p,
+ul li {
+  font-family: var(--text-font);
+  font-size: 1.25rem;
+}

@@ -1,0 +1,30 @@
+{{#each projects}}
+
+  <div class="grid-container">
+    <div class="grid-items">
+      <a href={{website}}>
+        <img src={{image}} alt="Project image" />
+      </a>
+    </div>
+    <div class="grid-item">
+      <h2>{{heading}}</h2>
+      <br /><hr /><br /><br />
+      <ul>
+        {{#each items}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+      <br /><br /><br />
+      <a href={{website}}>
+        <button class="primary-button">Live Demo &nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="fas fa-globe"></i></button>
+      </a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={{github}}>
+        <button class="secendory-button">Github &nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="fab fa-github"></i></button>
+      </a>
+    </div>
+  </div>
+
+{{/each}}

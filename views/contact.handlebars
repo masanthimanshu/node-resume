@@ -1,0 +1,27 @@
+{{> header}}
+
+<section class="hero-sec">
+    <div class="grid-container">
+        <div class="grid-item">
+            <h1>Contact Me</h1>
+            <h2>Let's Get In Touch</h2>
+            <br><br>
+            <hr>
+            <br><br><br>
+            <p>Email : masanthimanshu@gmail.com</p>
+            <br>
+            <p>Phone : +91 - 8929894163</p>
+        </div>
+        <div class="grid-item right">
+            <form action="/contact" method="post">
+            <input name="fullName" type="text" placeholder="Name *" required><br><br>
+            <input name="email" type="email" placeholder="E-Mail *" required><br><br>
+            <input name="phone" type="number" placeholder="Phone"><br><br>
+            <input name="companyName" type="text" placeholder="Company Name"><br><br>
+            <input name="companyWebsite" type="url" placeholder="Company Website"><br><br>
+            <textarea name="message" rows="8" placeholder="Message"></textarea><br><br>
+            <input type="submit" value="Let's Connect" class="primary-button">
+            </form>
+        </div>
+    </div>
+</section>

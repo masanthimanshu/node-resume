@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Oswald");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+@import url("./scrollbar.css");
+@import url("./partials.css");
+
+:root {
+  --heading-font: "Alex Brush";
+  --text-font: "Oswald";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 25%;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  width: 80%;
+  margin: auto;
+}
+
+.primary-button {
+  font-family: var(--text-font);
+  background: transparent;
+  font-size: 1.25rem;
+  padding: 5px 25px;
+  border: 2px solid black;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.primary-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.secendory-button {
+  font-family: var(--text-font);
+  background: black;
+  color: white;
+  font-size: 1.25rem;
+  padding: 5px 25px;
+  border: 2px solid black;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.secendory-button:hover {
+  background: transparent;
+  color: black;
+}
