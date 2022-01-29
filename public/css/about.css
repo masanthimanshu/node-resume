@@ -23,7 +23,22 @@
 }
 
 .hero-sec p,
-ul li {
+.hero-sec h3,
+.hero-sec ul li {
   font-family: var(--text-font);
   font-size: 1.25rem;
+}
+
+/* Mobile View CSS */
+
+@media only screen and (max-width: 500px) {
+  /* Hero Section */
+
+  .hero-sec {
+    padding: 10vh 0;
+  }
+
+  .skills-list {
+    grid-template-columns: auto auto;
+  }
 }

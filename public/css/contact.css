@@ -4,22 +4,22 @@
   padding: 20vh 0;
 }
 
-.hero-sec h1 {
-    font-family: var(--heading-font);
-    font-size: 5rem;
-    font-weight: normal;
+.hero-sec h2 {
+  font-family: var(--heading-font);
+  font-size: 5rem;
+  font-weight: normal;
 }
 
-.hero-sec h2 {
-    font-family: var(--text-font);
-    font-size: 3rem;
-    font-weight:lighter;
-    letter-spacing: 1;
+.hero-sec h3 {
+  font-family: var(--text-font);
+  font-size: 3rem;
+  font-weight: lighter;
+  letter-spacing: 1;
 }
 
 .hero-sec p {
-    font-family: var(--text-font);
-    font-size: 1.25rem;
+  font-family: var(--text-font);
+  font-size: 1.25rem;
 }
 
 .hero-sec .right {
@@ -38,4 +38,27 @@ form textarea {
 
 form input:focus {
   outline: inherit;
+}
+
+/* Mobile View CSS */
+
+@media only screen and (max-width: 500px) {
+  /* Hero Section */
+
+  .hero-sec {
+    padding: 10vh 0;
+  }
+
+  .hero-sec h2 {
+    font-size: 4.75rem;
+  }
+
+  .hero-sec h3 {
+    display: none;
+  }
+
+  form input,
+  form textarea {
+    width: 80%;
+  }
 }
