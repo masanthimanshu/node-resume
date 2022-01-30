@@ -26,6 +26,55 @@
         "Image processing performed using JIMP npm package.",
         "Deployed using Heroku."
       ]
+    },
+    {
+      "id": 3,
+      "heading": "Logo Agency Website",
+      "image": "/images/LogoWebsite.png",
+      "website": "/",
+      "github": "/",
+      "items": [
+        "Frontend built using HTML and CSS.",
+        "Deployed using Github Pages."
+      ]
+    },
+    {
+      "id": 4,
+      "heading": "Happiness Valley Website",
+      "image": "/images/HappinessValley.png",
+      "website": "/",
+      "github": "/",
+      "items": [
+        "Frontend built using HTML and CSS.",
+        "Backend built using Node.js and Express.",
+        "JSON objects with Handlebars helpers are used to scale page.",
+        "Deployed using Heroku."
+      ]
+    },
+    {
+      "id": 5,
+      "heading": "Pokemon Quiz App",
+      "image": "/images/PokemonQuiz.png",
+      "website": "/",
+      "github": "/",
+      "items": [
+        "Frontend built using HTML and CSS.",
+        "JavaScript along with JQuery is used to perform certain tasks.",
+        "Deployed using Heroku."
+      ]
+    },
+    {
+      "id": 6,
+      "heading": "EMI Calculator App",
+      "image": "/images/EMICalculator.png",
+      "website": "/",
+      "github": "/",
+      "items": [
+        "Frontend built using HTML and CSS.",
+        "JavaScript along with JQuery is used to perform calculations.",
+        "HTML Sliders (range type inputs) are used to design a clean UI.",
+        "Deployed using Github Pages."
+      ]
     }
   ]
 }
