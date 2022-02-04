@@ -4,22 +4,10 @@
   "projects": [
     {
       "id": 1,
-      "heading": "Aptitude Test App",
-      "image": "/images/AptitudeTest.png",
-      "website": "/",
-      "github": "/",
-      "items": [
-        "Frontend built using HTML and CSS.",
-        "JavaScript along with JQuery is used to perform certain tasks.",
-        "Deployed using GitHub Pages."
-      ]
-    },
-    {
-      "id": 2,
       "heading": "NFT Generator App",
       "image": "/images/NFTGenerator.png",
-      "website": "/",
-      "github": "/",
+      "website": "https://sleepy-headland-56478.herokuapp.com/",
+      "github": "https://github.com/masanthimanshu/nft-generator",
       "items": [
         "Frontend built using HTML and CSS.",
         "Backend built using Node.js and Express.",
@@ -28,22 +16,11 @@
       ]
     },
     {
-      "id": 3,
-      "heading": "Logo Agency Website",
-      "image": "/images/LogoWebsite.png",
-      "website": "/",
-      "github": "/",
-      "items": [
-        "Frontend built using HTML and CSS.",
-        "Deployed using Github Pages."
-      ]
-    },
-    {
-      "id": 4,
+      "id": 2,
       "heading": "Happiness Valley Website",
       "image": "/images/HappinessValley.png",
-      "website": "/",
-      "github": "/",
+      "website": "https://blooming-atoll-44837.herokuapp.com/",
+      "github": "https://github.com/masanthimanshu/HappinessValley-New",
       "items": [
         "Frontend built using HTML and CSS.",
         "Backend built using Node.js and Express.",
@@ -52,11 +29,34 @@
       ]
     },
     {
+      "id": 3,
+      "heading": "Aptitude Test App",
+      "image": "/images/AptitudeTest.png",
+      "website": "https://masanthimanshu.github.io/aptitude/",
+      "github": "https://github.com/masanthimanshu/aptitude",
+      "items": [
+        "Frontend built using HTML and CSS.",
+        "JavaScript along with JQuery is used to perform certain tasks.",
+        "Deployed using GitHub Pages."
+      ]
+    },
+    {
+      "id": 4,
+      "heading": "Logo Agency Website",
+      "image": "/images/LogoWebsite.png",
+      "website": "https://mr-cat-online.github.io/logo/",
+      "github": "https://github.com/masanthimanshu/logo",
+      "items": [
+        "Frontend built using HTML and CSS.",
+        "Deployed using Github Pages."
+      ]
+    },
+    {
       "id": 5,
       "heading": "Pokemon Quiz App",
       "image": "/images/PokemonQuiz.png",
-      "website": "/",
-      "github": "/",
+      "website": "https://masanthimanshu.github.io/pokemon/",
+      "github": "https://github.com/masanthimanshu/pokemon",
       "items": [
         "Frontend built using HTML and CSS.",
         "JavaScript along with JQuery is used to perform certain tasks.",
@@ -67,8 +67,8 @@
       "id": 6,
       "heading": "EMI Calculator App",
       "image": "/images/EMICalculator.png",
-      "website": "/",
-      "github": "/",
+      "website": "https://masanthimanshu.github.io/emi/",
+      "github": "https://github.com/masanthimanshu/emi",
       "items": [
         "Frontend built using HTML and CSS.",
         "JavaScript along with JQuery is used to perform calculations.",
